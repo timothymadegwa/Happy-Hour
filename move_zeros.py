@@ -5,7 +5,7 @@ def moveZeroes(nums):
         count = 0
         index = 0
         for n in nums:
-            if n==0:
+            if n == 0:
                 count+=1
                 nums.pop(index)
             index+=1
